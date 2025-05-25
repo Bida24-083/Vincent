@@ -5,11 +5,17 @@ body {
   background: #a79999;
 }
 
-body.homepage {
-  background-image: url('c:\Users\vince\OneDrive\Desktop\Rent Connect\real_estate_website\Background.jpg');
+.homepage {
+  background-image: url('https://i.pinimg.com/736x/83/86/75/838675d2b07c7218de525972f9a64228.jpg');
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100vh; /* Full viewport height */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 
@@ -22,7 +28,7 @@ body.homepage {
 
 
 .property-card img {
-  width: 40%;
+  width: auto;
   height: 250px;
   object-fit: hidden;
   border-radius: 8px;
