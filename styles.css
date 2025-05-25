@@ -13,6 +13,14 @@ body.homepage {
 }
 
 
+.custom-section {
+  height: 500px;              /* Fixed height */
+  /* height: 100vh; */        /* Full viewport height */
+  /* min-height: 300px; */    /* Minimum height */
+  background-color: #f0f0f0;
+}
+
+
 .property-card img {
   width: 40%;
   height: 250px;
