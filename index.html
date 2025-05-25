@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home - DreamHome Real Estate</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  
+<body class="homepage">
+
+
+<div class="site-title">DreamHome</div>
+  <nav>
+  <ul>
+    <li><a href="about.html">About</a></li>
+    <li><a href="apartments.html">Apartments</a></li>
+    <li><a href="booking.html">Booking</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="feedback.html">Feedback</a></li>
+  </ul>
+</nav>
+
+
+  <header class="slideshow-container">
+    <div class="slide fade">
+      <img src="images/hero1.jpg" style="width:100%">
+      <div class="text">Live in Luxury</div>
+    </div>
+    <div class="slide fade">
+      <img src="images/hero2.jpg" style="width:100%">
+      <div class="text">Modern Spaces</div>
+    </div>
+    <div class="slide fade">
+      <img src="images/hero3.jpg" style="width:100%">
+      <div class="text">Find Your Dream Home</div>
+    </div>
+  </header>
+
+  <script>
+    window.addEventListener('scroll', function () {
+      const nav = document.querySelector('nav');
+      nav.classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      const slides = document.getElementsByClassName("slide");
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      slides[slideIndex - 1].style.display = "block";  
+      setTimeout(showSlides, 4000); // Change every 4 seconds
+    }
+  </script>
+</body>
+</html>
