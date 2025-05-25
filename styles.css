@@ -20,7 +20,7 @@ body {
 
 
 .custom-section {
-  height: auto;              /* Fixed height */
+  height: 100px;              /* Fixed height */
   /* height: 100vh; */        /* Full viewport height */
   /* min-height: 300px; */    /* Minimum height */
   background-color: #f0f0f0;
@@ -58,7 +58,7 @@ nav ul {
 }
 
 nav ul li a {
-  color: rgb(2, 2, 2);
+  color: rgb(223, 217, 217);
   text-decoration: none;
   padding: 15px 20px;
   display: block;
