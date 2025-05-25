@@ -28,8 +28,8 @@ body {
 
 
 .property-card img {
-  width: auto;
-  height: 250px;
+  width: 200;
+  height: 450px;
   object-fit: hidden;
   border-radius: 8px;
 }
