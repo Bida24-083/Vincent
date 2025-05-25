@@ -11,7 +11,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh; /* Full viewport height */
-  color: white;
+  color: grey;
   display: flex;
   align-items: center;
   justify-content: center;
